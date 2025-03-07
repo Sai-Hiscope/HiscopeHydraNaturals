@@ -30,12 +30,15 @@
     <img src="./images/waterbottle.png" alt="Overlay" class="overlay-image">
     <button class="button1" onclick="scrollDown()">Shop Now</button>
     <h2 class="head">Shop HYDRA WATER</h2>
+    <div id="cart-count1">0
+    </div>
+    
 <div class="container">
     <!-- Item 1 -->
     <div class="item item1">
         <img src="./images/waterbottle.png" alt="Image 1">
         <div class="name">250ml RS:10</div>
-        <button class="b1">ADD CART</button>
+        <button class="b1" onclick="addToCart()">ADD CART</button>
     </div>
     
     <!-- Item 2 -->
@@ -56,6 +59,7 @@
         <div class="name">5000ml RS:50</div>
         <button class="b1">ADD CART</button>
     </div>
+    
 </div>
 </div>
 </div>
@@ -63,13 +67,35 @@
 <div class="container4">
     <div class="content">
 <h3 class="set">The Brand OUR STORY</h3>
-<p2>Since its inception in 2025, HYDRA Water has been committed <br>to doing business responsibly and seeking opportunities to make<br> a difference. That means investing in sustainability, the environment<br> and local communities, while focusing on meaningful issues with<br> like-minded partners to enable positive change.</p2>
+<p2>Water in its Purest Form
+    Water is life. But in today’s world, finding pure,<br> untainted water is becoming increasingly difficult. Processed beverages filled<br> with artificial ingredients have taken over the shelves, making something as <br>simple as hydration complicated<br><br>At Hiscope Hydra Naturals, we are redefining what it means to truly hydrate<br>by going back to nature. Our water is not just another bottled drink; it is an <br>experience of purity, refreshment, and well-being, just as nature intended.
+<br>When you choose Hiscope Hydra Naturals, you are drinking water that has<br> been preserved in its most authentic form, untouched by artificial enhancements</p2>
 <img src="./images/about us image.webp" alt="Image 3" class="postion">
 <img src="./images/about us image.webp" alt="Image 3" class="postion2">
-<p3>Since its inception in 2025, HYDRA Water has been committed<br> to doing business responsibly and seeking opportunities to make<br> a difference. That means investing in sustainability, the environment<br> and local communities, while focusing on meaningful issues with <br> like-minded partners to enable positive change.</p3>
-</div>
+<p3>More than Just Hydration – A Lifestyle Choice
+    Hydration isn’t just about quenching<br> thirst—it’s about nourishing your body, refreshing your mind, and embracing a lifestyle <br>that values health and wellness. Hiscope Hydra Naturals is crafted for those who believe <br>in choosing better, not just for themselves but also for the planet.
+   <br> With every sip, you are choosing:<br>
+✅ Water that is naturally enriched—free from artificial additives.<br>
+✅ Minimal processing—allowing nature to do its work.<br>
+✅ Sustainability—because the environment matters.<br>
+✅ Wellness-focused hydration—supporting a balanced, healthy life.<br>
 
+    </p3>
+</div>
+<i id="organic"class="fa-brands fa-pagelines"></i>
+<p4>100% Organic – Infused with real, natural flavors,<br> sourced from organic fruits and botanicals.
+</p4>
+<i id="baned" class="fa-solid fa-ban"></i>
+<p5>No Sugar, No Color, No Artificial Additives Just <br>pure water with a light, refreshing taste.</p5>
+<i id="waterdrop" class="fa-solid fa-droplet"></i>
+<p6>Hydration with a Subtle Hint of Flavor – Perfect <br>for those who want something fresh without<br> overpowering sweetness.</p6>
+<i id="waterbottle"class="fa-solid fa-bottle-water"></i>
+<p7> A Healthier Alternative – Enjoy the benefits of <br>drinking more water, with added flavor for variety.
+</p7>
 <div class="image-container">
+    
+
+   
     <div class="images">
         <img src="./images/waterbottle.png" alt="Image 1">
         <img src="./images/blueberries.png" alt="Image 2">
@@ -121,6 +147,17 @@
 
         // Start auto-scrolling every 3 seconds
         setInterval(autoMove, 3000);
+        var count2 = 0;
+        function addToCart() {
+            console.log('clicked');
+            console.log(count2++);
+            var count1 =document.getElementById('cart-count1').textContent;
+            count1.textContent = 19;
+            let cartCount = document.getElementById('cart-count').textContent
+            cartCount++;
+           
+      
+    }
 </script>
 
 </body>

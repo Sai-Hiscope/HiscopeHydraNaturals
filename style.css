@@ -31,11 +31,11 @@ p{
     size: 20%;
 }
 .top{
-    position: absolute;  /* Position the text on top of the image */
-    top: 20%;  /* Position the text vertically in the center */
-    left: 32%;  /* Position the text horizontally in the center */
-    transform: translate(-50%, -50%);  /* Offset the text to truly center it */
-    color: rgb(255, 255, 255);  /* Text color */
+    position: absolute;
+    top: 20%;  
+    left: 32%;  
+    transform: translate(-50%, -50%);  
+    color: rgb(255, 255, 255);  
     display: flex;
     gap: 90%;
     font-size: 100%;
@@ -86,9 +86,9 @@ color: rgb(209, 209, 209);
     text-align: center;  /* Center the text */
 }
 .overlay-image {
-    position: absolute;
+    position: fixed;
     top: 18%; /* You can adjust the position */
-    left: 60.2%; /* You can adjust the position */
+    left: 80.2%; /* You can adjust the position */
     width: 15%; /* Resize the overlay image */
     height: auto;
     animation-name: sizeAnimation;
@@ -184,7 +184,7 @@ color: rgb(209, 209, 209);
     background-size: cover; /* Cover the entire container */
     background-position: 0 0; /* Starting position */
     animation: moveBackground 20s linear infinite; /* Move the background */
-    opacity: 80%;
+    
 }
 
 /* Keyframes for moving the background image */
@@ -201,8 +201,8 @@ color: rgb(209, 209, 209);
 }
 .postion{
     position: absolute;
-    top: 220%;
-    left: 55%;
+    top: 210%;
+    left: 57%;
     width: 20%;
     height: 40%;
     border-radius: 10px;
@@ -221,12 +221,14 @@ p2{
     top: 220%;
     left: 10%;
     font-size: 110%;
+   
 }
 p3{
     position: absolute;
     top: 280%;
     left: 40%;
     font-size: 110%;
+    z-index: 0;
 }
 .postion2{
     position: absolute;
@@ -235,6 +237,7 @@ p3{
     width: 20%;
     height: 40%;
     border-radius: 10px;
+
 }
 
 .container4{
@@ -374,3 +377,74 @@ button1.next {
     text-align: center;  /* Center the text */
    font-size: 20px;
 }
+#organic{
+    font-size: 50px;
+    position: absolute;
+    top: 350%;
+    left: 3%;
+    background-color: rgb(150, 218, 223);
+    border-radius: 50%;
+}
+p4{
+    font-size: 20px;
+    position: absolute;
+    top: 350%;
+    left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#baned{
+    font-size: 50px;
+    position: absolute;
+    top: 366%;
+    left: 3%;
+    background-color:rgb(150, 218, 223); 
+    border-radius: 50%;
+}
+p5{
+    font-size: 20px;
+    position: absolute;
+    top: 366%;
+    left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#waterdrop{
+    font-size: 50px;
+    position: absolute;
+    top: 382%;
+    left: 3%;
+    background-color:rgb(150, 218, 223); 
+    border-radius: 50%;
+}
+p6{
+    font-size: 20px;
+    position: absolute;
+    top: 382%;
+    left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#waterbottle{
+    font-size: 50px;
+    position: absolute;
+    top: 398%;
+    left: 3%;
+    background-color:rgb(150, 218, 223); 
+    border-radius: 50%;
+}
+p7{
+    font-size: 20px;
+    position: absolute;
+    top: 398%;
+    left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cart-count1 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 2;
+  }
