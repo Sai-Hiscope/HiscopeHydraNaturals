@@ -13,6 +13,7 @@
 <div class="color-overlay">
     <div class="con1">
         <div class="cart-container">
+            <div class="control-button" onclick="decreaseCount()">-</div>
             <div class="cart-icon" id="cart" onclick="increaseCount()">
                 <span class="count" id="cart-count">0</span>
                 🛒
@@ -158,7 +159,12 @@ function increaseCount() {
     car_count++;
     document.getElementById('cart-count').innerText = car_count;
 }
-    
+function decreaseCount() {
+            if (car_count > 0) {
+                car_count--;
+                document.getElementById('cart-count').innerText = car_count;
+            }
+        }
 </script>
 
 </body>
