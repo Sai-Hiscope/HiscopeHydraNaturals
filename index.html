@@ -12,6 +12,12 @@
     
 <div class="color-overlay">
     <div class="con1">
+        <div class="cart-container">
+            <div class="cart-icon" id="cart" onclick="increaseCount()">
+                <span class="count" id="cart-count">0</span>
+                🛒
+            </div>
+        </div>
     <h>HYDRA</h>
     <p>By Hiscope</p>
    
@@ -38,26 +44,26 @@
     <div class="item item1">
         <img src="./images/waterbottle.png" alt="Image 1">
         <div class="name">250ml RS:10</div>
-        <button class="b1" onclick="addToCart()">ADD CART</button>
+        <button class="b1" onclick="increaseCount()">ADD CART</button>
     </div>
     
     <!-- Item 2 -->
     <div class="item item2">
         <img src="./images/waterbottle.png" alt="Image 2">
         <div class="name">500ml RS:15 </div>
-        <button class="b1">ADD CART</button>
+        <button class="b1" onclick="increaseCount()">ADD CART</button>
     </div>
     
     <!-- Item 3 -->
     <div class="item item3">
         <img src="./images/waterbottle.png" alt="Image 3">
         <div class="name">1000ml RS:20</div>
-        <button class="b1">ADD CART</button>
+        <button class="b1" onclick="increaseCount()">ADD CART</button>
     </div>
     <div class="item item3">
         <img src="./images/waterbottle.png" alt="Image 3">
         <div class="name">5000ml RS:50</div>
-        <button class="b1">ADD CART</button>
+        <button class="b1" onclick="increaseCount()">ADD CART</button>
     </div>
     
 </div>
@@ -107,9 +113,8 @@
 </div>
 <h1 class="texton">Flavored Water comming Soon</h1>
 <div class="lastcon">
-    <h2 class="footerhead"> HISCOPE HYDRA NATURALS WATER</h2
+    <h2 class="footerhead"> HISCOPE HYDRA NATURALS WATER</h2>
     </div>
-
 <script>
     function scrollDown() {
         window.scrollBy({
@@ -147,17 +152,13 @@
 
         // Start auto-scrolling every 3 seconds
         setInterval(autoMove, 3000);
-        var count2 = 0;
-        function addToCart() {
-            console.log('clicked');
-            console.log(count2++);
-            var count1 =document.getElementById('cart-count1').textContent;
-            count1.textContent = 19;
-            let cartCount = document.getElementById('cart-count').textContent
-            cartCount++;
-           
-      
-    }
+        let car_count = 0;
+
+function increaseCount() {
+    car_count++;
+    document.getElementById('cart-count').innerText = car_count;
+}
+    
 </script>
 
 </body>
