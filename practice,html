@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottle Branding Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background: #007bff;
+            color: white;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+        .cert-icons {
+            margin-top: 20px;
+        }
+        .cert-icons img {
+            width: 100px;
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Pure & Safe Drinking Water</h2>
+        <table>
+            <tr>
+                <th>Processing Method</th>
+                <td>Sand Filtration, Carbon Filtration, Micron & Ultra Micron Filtration, Reverse Osmosis, Ultraviolet Treatment, Ozonization</td>
+            </tr>
+            <tr>
+                <th>Nutrition Facts (per 100ml)</th>
+                <td>Calories: 0, Fat: 0, Potassium: 0.1mg, Magnesium: 0.5mg, Calcium: 1.0mg</td>
+            </tr>
+            <tr>
+                <th>Certifications</th>
+                <td>ISI Certified (IS: 14543), CM/L No.: 6300106994, FSSAI Lic. No.: 13624010000316</td>
+            </tr>
+            <tr>
+                <th>More Details</th>
+                <td>For BIS certification details, visit: <a href="https://www.bis.gov.in" target="_blank">www.bis.gov.in</a></td>
+            </tr>
+            <tr>
+                <th>Responsible Consumption</th>
+                <td>Recycle After Use (PET 1), Do Not Litter, Make in India, Crush the Bottle After Use</td>
+            </tr>
+        </table>
+        <div class="cert-icons">
+            <img src="isi-certification.png" alt="ISI Certification Badge">
+            <img src="fssai-certification.png" alt="FSSAI Certification Badge">
+            <img src="recycle.png" alt="Recycle Logo">
+        </div>
+        <p class="footer">Ensuring that every drop is packed with purity!</p>
+    </div>
+</body>
+</html>
