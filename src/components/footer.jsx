@@ -15,6 +15,7 @@ function Footer(){
     
     <h2>Pure & Safe Drinking Water</h2>
     <table>
+        <tbody>
         <tr>
             <th>Processing Method</th>
             <td>Sand Filtration, Carbon Filtration, Micron & Ultra Micron Filtration, Reverse Osmosis, Ultraviolet Treatment, Ozonization</td>
@@ -35,10 +36,11 @@ function Footer(){
             <th>Responsible Consumption</th>
             <td>Recycle After Use (PET 1), Do Not Litter, Make in India, Crush the Bottle After Use</td>
         </tr>
-        <div className="call">Contact : 1800 HYDRA NATURALS , Email : info@hiscopehydranaturals</div>
+        </tbody>
+    </table>
+    <div className="call">Contact : 1800 HYDRA NATURALS , Email : info@hiscopehydranaturals</div>
         <div className="last">© 2025 Hydra Water Company LLC. All Rights Reserved. Hydra, EARTH'S FINEST, EARTH'S FINEST WATER, EARTH'S FINEST FOR FITNESS, UNTOUCHED BY MAN, the Trade Dress, and accompanying logos are trademarks of Hydar Water Company LLC or its affiliates.
         </div>
-    </table>
    
     <img src={logo1} className="logo9"/>
         <img src={logo2} className="logo10"/>

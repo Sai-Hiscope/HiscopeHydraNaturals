@@ -16,15 +16,15 @@ function Maincontent(){
             The Brand our Story
         </div>
         <div className="text1">
-       <p1> Water in its Purest Form
+        Water in its Purest Form
     Water is life. But in today’s world, finding pure, untainted water is becoming increasingly difficult. Processed beverages filled with artificial ingredients have taken over the shelves, making something as simple as hydration complicated At Hiscope Hydra Naturals, we are redefining what it means to truly hydrate by going back to nature. Our water is not just another bottled drink; it is an experience of purity, refreshment, and well-being, just as nature intended.
-When you choose Hiscope Hydra Naturals, you are drinking water that has been preserved in its most authentic form, untouched by artificial enhancements</p1>
+When you choose Hiscope Hydra Naturals, you are drinking water that has been preserved in its most authentic form, untouched by artificial enhancements
         </div>
         <img src={MainImage} className="image1"/>
         {/* first main content ended */}
         <img src={MainImage2}className="MainImage2"/>
         <div className="text2">
-            <p2>
+            
             More than Just Hydration – A Lifestyle Choice
     Hydration isn’t just about quenching thirst—it’s about nourishing your body, refreshing your mind, and embracing a lifestyle that values health and wellness. Hiscope Hydra Naturals is crafted for those who believe in choosing better, not just for themselves but also for the planet.
     With every sip, you are choosing:<br></br>
@@ -32,7 +32,7 @@ When you choose Hiscope Hydra Naturals, you are drinking water that has been pre
 ✅ Minimal processing—allowing nature to do its work.
 ✅ Sustainability—because the environment matters.
 ✅ Wellness-focused hydration—supporting a balanced, healthy life.
-            </p2>
+            
         </div>
         {/* second main content ended */}
 
@@ -40,12 +40,12 @@ When you choose Hiscope Hydra Naturals, you are drinking water that has been pre
         {/* third main content started */}
        <img src={MainImage3} className="image3"/>
     <div className="text3">
-        <p3>
+        
         Our Commitment to Sustainability
 At Hiscope Hydra Naturals, we believe in delivering pure, refreshing water while being mindful of our environmental impact. Initially, we considered  manufacturing our own plastic bottles, but we realized that adding more plastic production facilities could contribute to environmental harm. Instead, we chose to partner with responsible  third-party manufacturers who follow sustainable practices, allowing us to reduce our carbon footprint while ensuring high-quality packaging.
 
 By making this conscious choice, we focus  on delivering hydration responsibly. Our future goal is to transition to recycled plastic (rPET) and promote eco-friendly packaging solutions, ensuring that every sip you take supports a healthier planet.
-        </p3>
+        
     </div>
 
     {/* forth main content starts here */}
