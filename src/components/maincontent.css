@@ -1,0 +1,234 @@
+.head1{
+    color: black;
+    font-size: 30px;
+    font-weight: 10px;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+@media(max-width:900px){
+    .head1{
+        position: absolute;
+        left: 24%;
+    }
+}
+.text1{
+    position:absolute;
+    top: 110%;
+    width: 50%;
+    left: 5%;
+}
+@media(max-width:900px){
+    .text1{
+        position: absolute;
+        top: 150%;
+        width: 100%;
+    }
+}
+.image1{
+    position: absolute;
+    top: 105%;
+    right: 3%;
+    width: 40%;
+    height: 40%;
+}
+@media(max-width:900px){
+    .image1{
+        position: absolute;
+        right: 30%;
+    }
+}
+/* image 2 css start */
+
+.MainImage2{
+    position: absolute;
+    top: 150%;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+}
+@media(max-width:900px){
+    .MainImage2{
+        position: absolute;
+        top: 190%;
+        right: 30%;
+    }
+}
+.text2{
+    position:absolute;
+    top: 150%;
+    width: 50%;
+    right: 4%;
+}
+@media(max-width:900px){
+    .text2{
+        position: absolute;
+        top: 235%;
+        width: 100%;
+        left: 1%;
+    }
+}
+
+/* image 3 css start here */
+
+.image3{
+    position: absolute;
+    top: 200%;
+    right: 3%;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+}
+@media(max-width:900px){
+    .image3{
+        position: absolute;
+        top: 270%;
+        right: 28%;
+    }
+}
+.text3{
+    position: absolute;
+    top: 200%;
+    width: 50%;
+    left: 2%;
+}
+@media(max-width:900px){
+    .text3{
+        position: absolute;
+        top: 314%;
+        width: 100%;
+        left: 1%;
+    }
+}
+/* main content3 css start here */
+
+.Image4{
+    position: absolute;
+    top: 250%;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+}
+@media(max-width:900px){
+    .Image4{
+        position: absolute;
+        top: 357%;
+        right: 26%;
+    }
+}
+.text4{
+    position: absolute;
+    top: 250%;
+    width: 50%;
+    right: 3%;
+}
+@media(max-width:900px){
+    .text4{
+        position: absolute;
+        top: 400%;
+        width: 100%;
+        left: 1%;
+    }
+}
+/* images css */
+.logo1{
+    position: absolute;
+    top: 300%;
+    font-size: 50px;
+}
+.logo1text{
+    position: absolute;
+    top: 300%;
+    width: 20%;
+    left: 4%;
+}
+@media(max-width:900px){
+    .logo1{
+        position: absolute;
+        top: 430%;
+    }
+    .logo1text{
+        position: absolute;
+        top: 430%;
+        width: 80%;
+        left: 20%;
+    }
+}
+.logo2{
+    position: absolute;
+    top: 300%;
+    font-size: 50px;
+    left: 25%;
+}
+.logo2text{
+    position: absolute;
+    top: 300%;
+    left:30%;
+    width: 20%;
+}
+@media(max-width:900px){
+    .logo2{
+        position: absolute;
+        top: 440%;
+        left: 1%;
+
+    }
+    .logo2text{
+        position: absolute;
+        top: 440%;
+        width: 80%;
+        left: 20%;
+
+    }
+
+}
+.logo3{
+    position: absolute;
+    top: 300%;
+    font-size: 50px;
+    left: 52%;
+}
+.logo3text{
+    position: absolute;
+    top: 300%;
+    left:57%;
+    width: 20%;
+}
+@media(max-width:900px){
+    .logo3{
+        position: absolute;
+        top: 450%;
+        left: 1%;
+    }
+    .logo3text{
+        position: absolute;
+        top: 450%;
+        width: 80%;
+        left: 20%;
+    }
+}
+.logo4{
+    position: absolute;
+    top: 300%;
+    font-size: 50px;
+    left: 77%;
+}
+.logo4text{
+    position: absolute;
+    top: 300%;
+    left:80%;
+    width: 20%;
+}
+@media(max-width:900px){
+    .logo4{
+        position: absolute;
+        top: 460%;
+        left: 1%;
+    }
+    .logo4text{
+        position: absolute;
+        top: 460%;
+        width: 80%;
+        left: 20%;
+    }
+}
