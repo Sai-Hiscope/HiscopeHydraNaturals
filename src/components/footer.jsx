@@ -1,4 +1,4 @@
-import './Footer.css';
+import './footer.css';
 import logo1 from '../assets/fassai.png';
 import logo2 from '../assets/recycle.png';
 import logo3 from '../assets/logo/isi.png';
@@ -36,7 +36,9 @@ function Footer(){
             <th>Responsible Consumption</th>
             <td>Recycle After Use (PET 1), Do Not Litter, Make in India, Crush the Bottle After Use</td>
         </tr>
+       
         </tbody>
+      
     </table>
     <div className="call">Contact : 1800 HYDRA NATURALS , Email : info@hiscopehydranaturals</div>
         <div className="last">© 2025 Hydra Water Company LLC. All Rights Reserved. Hydra, EARTH'S FINEST, EARTH'S FINEST WATER, EARTH'S FINEST FOR FITNESS, UNTOUCHED BY MAN, the Trade Dress, and accompanying logos are trademarks of Hydar Water Company LLC or its affiliates.

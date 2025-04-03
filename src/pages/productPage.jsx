@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './productpage.css';
+import './productPage.css';
 import header_image from "../assets/logo/waterbottle.png";
 import Orange_image from "../assets/orange.png";
-import Pineapple_image from "../assets/Pineapple.png";
+import Pineapple_image from "../assets/pineapple.png";
 import { FaShoppingCart } from "react-icons/fa"; // Using a cart icon from react-icons
 import login_logo from "../assets/logo/logo.png";
 import {Link} from "react-router-dom";

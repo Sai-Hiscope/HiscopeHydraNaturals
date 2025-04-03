@@ -7,7 +7,7 @@ import ProductPage from "../pages/productPage";
 import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 
 
-function HomePage() {
+function homePage() {
   return (
     <div>
         <Header />
@@ -20,4 +20,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default homePage

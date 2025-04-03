@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./slider.css"; // Import the CSS styling file
 import header_image from "../assets/logo/waterbottle.png";
 import Orange_image from "../assets/orange.png"
-import Pineapple_image from "../assets/Pineapple.png"
+import Pineapple_image from "../assets/pineapple.png"
 import blueberries from "../assets/blueberries.png"
 
 

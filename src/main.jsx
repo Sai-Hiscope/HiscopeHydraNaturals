@@ -7,7 +7,7 @@ import Maincontent from './components/maincontent.jsx'
 import Footer from './components/footer.jsx'
 import Header from './components/header.jsx'
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
    <App />
-  </StrictMode>,
+  // </StrictMode>
 )
