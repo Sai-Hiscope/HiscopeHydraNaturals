@@ -58,7 +58,7 @@
 
 .nav-item a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 20px;
   color: #333;
   transition: font-size 0.3s ease-in-out;
 }
@@ -73,7 +73,7 @@ display: none;
 
 @media (max-width: 1200px) {
   .nav-item a {
-      font-size: 10px;
+      font-size: 15px;
   }
 }
 
@@ -215,4 +215,6 @@ display: none;
   top: 12%;
   color: black;
   width: 100%;
+
+ 
 }
