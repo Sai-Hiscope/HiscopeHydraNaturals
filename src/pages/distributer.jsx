@@ -18,10 +18,11 @@ const Distributer = () => {
 
   return (
     <>
-    <Link to="/">
-    <img src={login_logo} className="ourlogo"/></Link>
+    
     <div className="contact-container">
       <header className="contact-header">
+      <Link to="/">
+      <img src={login_logo} className="ourlogo"/></Link>
         <h1>Be Our Distributer</h1>
         <p>We're here to help you with our premium water bottles.</p>
       </header>
