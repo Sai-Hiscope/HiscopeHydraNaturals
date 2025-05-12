@@ -1,0 +1,94 @@
+/* ComingSoon.css */
+.coming-soon-container {
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+    background: url('https://via.placeholder.com/1500') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .comming_logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1px;
+    z-index: 2;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .coming-soon-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .time-box {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff8c00;
+  }
+  
+  .label {
+    font-size: 14px;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+  
+  .notify-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .notify-button:hover {
+    background-color: #ff5722;
+  }
+  

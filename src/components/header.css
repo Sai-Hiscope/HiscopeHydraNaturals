@@ -1,0 +1,220 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+.hiscope_hydra-main-container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("../assets/logo/backnew.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  }
+.profile{
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  font-size: 30px;
+  color: rgb(156, 5, 5);
+  
+}
+.profilelink{
+  color: black;
+}
+.cart{
+  position: absolute;
+  right: 13%;
+  top: 1%;
+  font-size: 28px;
+}
+
+.logoposition {
+  position: absolute;
+  top: 5%;
+  left: 2%;}
+
+.logoheader {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: -4%;
+  left: -1%;
+}
+
+.nav-list {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  transition: font-size 0.3s ease-in-out;
+}
+.nav-item a:hover{
+    color: aliceblue;
+    text-decoration: underline rgb(239, 7, 42);
+}
+
+.bar {
+display: none;
+}
+
+@media (max-width: 1200px) {
+  .nav-item a {
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+      gap: 10px;
+  }
+  .nav-item a {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-list {
+      display: none;
+
+  }
+  .profile{
+    position: absolute;
+    right: 10%;
+    top: 0.8%;
+  }
+
+  .bar {
+      display: block; /* Hamburger only visible on small screens */
+      position: absolute;
+      top: 2%;
+      right: 2%;
+  }
+  .harder_nav_ul {
+      flex-direction: column;
+      border: 0.5px solid rgba(107, 105, 105, 0.281);
+      width: 250px;
+      height: 60vh;
+      position: absolute;
+      right: 1px;
+      top: -65vh;
+      background-color: white;
+      transition: 0.5s;
+      list-style: none;
+      padding-left: 0;
+  }
+
+  .active_harder_nav_ul {
+      top: 95px;
+      flex-direction: column;
+      border: 0.5px solid rgba(107, 105, 105, 0.281);
+      width: 170px;
+      height: 40vh;
+      position: absolute;
+      right: 1px;
+      background-color: white;
+      transition: 0.5s;
+      list-style: none;
+      padding-left: 0;
+      border-radius: 20px;
+  }
+  .active_harder_nav_ul :hover{
+    background-color: #999595;
+  }
+  .barheader{
+      position: static;
+  }
+}
+
+.barheader{
+  display: none;
+}
+@media (max-width: 600px){
+  .barheader{
+      display: block;
+  }
+}
+.barli{
+  text-align: center;
+  padding: 10px;
+}
+.barli a{
+  text-decoration: none;
+  color: black;
+}
+.barli a:hover{
+   color: aqua;
+  
+}
+.bannerImage{
+ position: absolute;
+ top: 20%;
+ left: 14%;
+}
+.header_image_style{
+  width: 100px;
+  height: 200px;
+}
+/* button csss */
+.button1 {
+  position: absolute;
+  top: 52%;
+  left: 15%;
+  padding: 5px 10px;
+  font-size: 80%;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #0023, #00b5f2);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  font-family: Times New Roman;
+}
+.button1:hover {
+  transform: translateY(-5px); 
+}
+.button1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation: wave 3s infinite linear;
+  opacity: 0.8;
+
+}
+@keyframes wave {
+  0% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(10px); }
+  100% { transform: translateX(-50%) translateY(0);}
+}
+
+/* button css ends hear */
+.movingtext{
+  position: absolute;
+  top: 12%;
+  color: black;
+  width: 100%;
+
+ 
+}
