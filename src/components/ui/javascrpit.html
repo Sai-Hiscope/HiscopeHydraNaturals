@@ -1,0 +1,90 @@
+// + , -, *, /, %, ++, --, ==, ===, !=, !==, >, <, >=, <=, &&, ||, !
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Operators</title>
+</head>
+<body>
+
+<h2>JavaScript Operators Demo</h2>
+
+<input type="number" id="num1" placeholder="Enter first number">
+<input type="number" id="num2" placeholder="Enter second number">
+<button onclick="Calculate()">Calculate</button>
+
+<input type="text" id="name1" placeholder="enter first name">
+<input type="text" id="name2" placeholder="enter last name">
+<button onclick="combine()">full name</button>
+<script>
+  // + , -, *, /, %, ++, --
+
+  let a = 5;
+  let b = 10;
+
+  console.log("Addition:", a + b);
+  console.log("Subtraction:", a - b);
+  console.log("Multiplication:", a * b);
+  console.log("Division:", a / b);
+  console.log("Modulus:", a % b);
+  console.log("Increment:", ++a);
+  console.log("Increment:", a++);
+  console.log("Decrement:", --b);
+  console.log("Greater than:", a > b);
+  console.log("Less than:", a < b);
+  console.log("Greater than or equal to:", a >= b);
+  console.log("Less than or equal to:", a <= b);  
+
+let age = 20;
+
+if (age >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
+
+let x = prompt("Enter a number:");
+let y = prompt("Enter another number:");
+
+x = Number(x);
+y = Number(y);
+
+console.log("add 2 numbers", x + y);
+
+
+//let DOB = prompt("Enter your year of birth:");
+//DOB = Number(DOB);
+
+let DOB = Number(prompt("Enter your year of birth:"));
+if (DOB >=2010){
+     console.log("You are a GenZ");
+} else {
+     console.log("You are not a Millennial");
+
+}
+function Calculate() {
+
+  let c = Number(document.getElementByid("num1").value);
+  let d = Number(document.getElementByid("num2").value);
+
+  console.log("Addition:", c + d);
+  console.log("Subtraction:", c - d);
+  console.log("Multiplication:", c * d);
+  console.log("Division:", c / d);
+  console.log("Modulus:", c % d);
+  console.log("Increment:", ++c);
+  console.log("Decrement:", --d);
+}
+function combine(){
+    /* let e = text(document.getElementById)("text1").value);
+    let e = String(document.getElementByid)("num2").value); */
+     let g = String(document.getElementById("name1").value);
+      let h = String(document.getElementById("name2").value);
+      console.log("fullname:", g,h);
+
+
+}
+   
+</script>
+
+</body>
+</html>
