@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice HTML</title>
+
+    <style>
+        /* ----------- PAGE STYLE ----------- */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* ----------- MAIN CONTAINER ----------- */
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* ----------- HEADINGS ----------- */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2, h3, h4 {
+            color: #444;
+        }
+
+        /* ----------- TEXT ----------- */
+        p {
+            color: #333;
+            font-family: cursive;
+            line-height: 1.6;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        /* ----------- LINK ----------- */
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ----------- IMAGE ----------- */
+        img {
+            width: 200px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+
+        /* ----------- FORMS ----------- */
+        form {
+            margin-top: 10px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: #fafafa;
+        }
+
+        /* ----------- INPUTS ----------- */
+        input {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        /* ----------- SUBMIT BUTTON ----------- */
+        input[type="submit"] {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Web Application</h1>
+        <h2>Web Application</h2>
+        <h4>Web Application</h4>
+
+        <span>Inline tag</span>
+
+        <p>
+            This is a <span style="color: blue;">login page</span> of my application.
+            This is a login page of my application.
+        </p>
+
+        <div>hi</div>
+
+        <a href="https://hiscopehydranaturals.com/#contact">Page Link</a>
+
+        <img src="C:\Users\nimma\OneDrive\Pictures\MicrosoftTeams-image.png" alt="Image">
+
+        <!-- APPLICATION FORM -->
+        <form>
+            <h3>Application Form</h3>
+
+            Full Name:
+            <input type="text" name="name">
+
+            Email Address:
+            <input type="email" name="email">
+
+            Phone Number:
+            <input type="tel" name="phone">
+
+            Address:
+            <input type="text" name="address">
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- LOGIN FORM -->
+        <form>
+            <h3>Login Page</h3>
+
+            User Name:
+            <input type="text" name="username">
+
+            Password:
+            <input type="password" name="password">
+
+            Confirm Password:
+            <input type="password" name="confirm_password">
+        </form>
+
+    </div>
+
+</body>
+</html>

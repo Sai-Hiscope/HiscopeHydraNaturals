@@ -1,0 +1,150 @@
+
+/* .logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #eff1f3;
+
+}
+ .logo:hover {
+      color:#56b9f7;
+ }
+
+        .navbar{
+
+        
+            padding:  20px 60px;
+            width: 100;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            gap: 50px;
+            background-color:rgb(7, 7, 7)
+             
+            
+        
+        }
+        .navbar a:{
+            color: #fff;
+        }
+        
+    
+         .navbar a:hover {
+      color:#fff;
+
+    }
+    .navbar button{
+        color:rgb(252, 248, 248);
+        background-color: rgb(2, 1, 1);
+        border-radius: 10px;
+        border-color: rgb(241, 244, 241);
+        width: 130px;
+        height: 60px;
+
+    }
+    .navbar button:hover {
+        color:rgb(244, 232, 232);
+        background-color: rgb(15, 13, 13);
+    } */
+
+    /* .footer{
+        background-color: rgb(9, 9, 9);
+        font-family:  Arial;
+        color: #fefcfc;
+        padding: 50px 0 20px;
+        
+
+
+    }
+     .footer-container {
+         padding:  0px 100px;
+            width: 1100px;
+            align-items: center;
+            gap: 50px;
+            background-color:rgb(23, 16, 18)
+        }
+.footer p{
+        font-size: 14px;
+        line-height: 1.6;
+
+    }
+    
+    .footer2 h3{
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .footer3 h4{
+        color: #fff;
+        margin-bottom: 0;
+        text-align: center;
+
+    }
+    
+
+    .footer3 ul li{
+        margin-bottom: 8px;
+        padding-left: 20px;
+    }
+    
+    .footer3 ul li a {
+        color: white;
+
+
+    } 
+
+
+
+
+     .navbar2{
+
+        
+             padding:  20px 60px;
+            width: 100;
+            align-items: center;
+           
+            gap: 50px;
+            background-color:rgb(7, 7, 7)
+             
+             
+        
+        } */
+        
+        /* .scroll-text
+        {
+            font-style: italic;
+            color: #007bff;
+            font-size: 20px;
+            animation: scroll-left 10s linear infinite;}
+        .container{
+         width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    } */
+             
+/*@keyframes scroll-left{
+    0%{ 
+        transform:translateX(100%);
+    }
+    100%{
+     transform:translateX(100%);
+    }}*/
+   
+    
+         .mainimage:hover {
+        
+            image-rendering: auto;
+         }
+         .mainimage{
+            display:flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            width:50%;
+            height:50%;
+
+
+
+         }
+    

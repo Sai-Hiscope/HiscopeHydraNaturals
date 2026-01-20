@@ -10,17 +10,28 @@
 
 <input type="number" id="num1" placeholder="Enter first number">
 <input type="number" id="num2" placeholder="Enter second number">
-<button onclick="Calculate()">Calculate</button>
+<button onclick="Calculate()">Calculate</button> <br>
 
 <input type="text" id="name1" placeholder="enter first name">
 <input type="text" id="name2" placeholder="enter last name">
-<button onclick="combine()">full name</button>
+<button onclick="combine()">full name</button> <br>
+<input type="text" id="name">
+<button onclick="showName()">clickme</button>
+
 <script>
   // + , -, *, /, %, ++, --
+ 
 
+  function showName(){
+   let f= (document.getElementById("name").value);
+   console.log("name:",f);
+    
+  }
   let a = 5;
   let b = 10;
-
+  
+  
+  console.log("n:",name);
   console.log("Addition:", a + b);
   console.log("Subtraction:", a - b);
   console.log("Multiplication:", a * b);
@@ -51,7 +62,7 @@ y = Number(y);
 console.log("add 2 numbers", x + y);
 
 
-//let DOB = prompt("Enter your year of birth:");
+//let DOB = prompt("Enter yourgit  year of birth:");
 //DOB = Number(DOB);
 
 let DOB = Number(prompt("Enter your year of birth:"));
@@ -80,7 +91,6 @@ function combine(){
      let g = String(document.getElementById("name1").value);
       let h = String(document.getElementById("name2").value);
       console.log("fullname:", g,h);
-
 
 }
    
